@@ -28,7 +28,7 @@ void loop() {
   value = value / 4; //Dividing value by 4 reduces range to max 255
 
   if (value > 0 && value <= 200) {
-    analogWrite (LED, 0);
+    analogWrite (LED, 255);
   } 
   else if (value > 200 && value < 255) {
     analogWrite (LED, 255);
