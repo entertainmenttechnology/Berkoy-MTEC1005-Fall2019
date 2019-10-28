@@ -14,9 +14,9 @@
   ***MODIFY THE CONDITIONS FOR LED AND MOTOR BEHAVIOR***
 */
 
-#include <Servo.h>
+#include <Servo.h> // include Arduino Servo library
 
-const int potPin = 0;  // include Arduino Servo library
+const int potPin = A0;  // create potPin variable, assign pin A0
 const int servoPin = 9;  // create servoPin variable, assign 9
 const int LED = 4;  // create LED variable, assign 4
 
